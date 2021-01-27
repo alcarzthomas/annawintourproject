@@ -1,28 +1,32 @@
+header {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
 #main {
-		width: 100%;
-		height: 90%;
+		height: 100%;
 		background: #373B44;  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, hsla(340, 95%, 50%, 0.671), #373B44), url(https://images.unsplash.com/flagged/photo-1553277004-39d655b57262?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+		background: linear-gradient(to right, hsla(340, 95%, 50%, 0.671), #373B44), url(photo-1553277004-39d655b57262.jpg);
+		background-repeat: no-repeat;
 		background-size: cover;
-		flex: center;
-	}
-  	.text-align-center {
-  		text-align: center;
-  		color: #014034;
-  		text-shadow: 2px 2px black;
-  		font-family: "Satisfy";
-		font-size: 100px;
+		background-position: center;
+		background-attachment: fixed;
+		text-align: center;
+		padding: 20px;
   		display: flex;
-  		height: 500px;
-  		width: 100%;
-  		align-items: center;
-  		justify-content: center;
   		flex-direction: column;
-  		margin-bottom: 0px;
-
-
+  		text-align: justify;
+  		justify-content: center;
+  		align-items:center;
+  		font-family:"Dancing Script";
+  		color: white;
+  		font-size: 90px;
   	}
+	
+
   	#img-div {
   		margin: 0px;
   	}
@@ -82,4 +86,7 @@
   		font-size: 20px;
   		margin: 0px
   		color: white;
+  	}
+  	title {
+  		text-align: center;
   	}
